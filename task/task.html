@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  ,<link rel="stylesheet" href="task.css">
+  <link rel="stylesheet" href="task.css">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,21 +8,27 @@
     <title>Document</title>
 </head>
 <body>
-    <h1> Aldana Alghofaily</h1>
+  <nav>
+    <img src="lllllllll.jpeg" alt="">
+    <ul class="nav-links">
+      <li><a href="" class="link1">Home</a></li>
+      <li><a href="" class="link2">About </a></li>
+      <li><a href="" class="link3">Contact</a></li>
+    </ul>
+  </nav>
+  <div id="aboutme">
+    
 
-<img id="logo" src= "https://i.pinimg.com/originals/23/01/c0/2301c0fb260cabfaad3afeccb2c0877f.jpg" width=250px;
+<img id="logo" src="download.png" max-width=200%;
 >
 <p>
-Software Engineer student in Prince Sultan University, intrested in cyber security and web development. Willing to try new things and expand more into coding and project management.
+I'm aldana alghofaily. A sophomore Software Engineer student in Prince Sultan University, intrested in cyber security and web development. Willing to try new things and expand more into coding and project management.
 </p>
-<h2>Skills </h2>
-<ul>
-  <li>Leadearship Skills</li>
-  <li>Communivation skills</li>
-  <li>Problem Solving </li>
+
+</div>
 <h3>Contact:</h3>
 <a href="https://www.linkedin.com/in/aldana-alghofaily-36311a217/"> LinkedIn</a>
-  <hr>Contact with me</hr>
+<hr>Get in touch with me</hr>
 <form id="survey-form">
   <div class="form-group">
   <label id="name-label" for"name">Name</label>
@@ -30,7 +36,7 @@ Software Engineer student in Prince Sultan University, intrested in cyber securi
            type="text"
            name="name"
            class="form-control"
-           placeholder="Enter Your Full Name"
+           placeholder=" Full Name"
            required>
   </div>
    <div class="form-group">
@@ -39,96 +45,48 @@ Software Engineer student in Prince Sultan University, intrested in cyber securi
            type="email"
            name="name"
            class="form-control"
-           placeholder="Enter Your Email"
+           placeholder=" Work Email"
            required>
   </div>
-   <div class="form-group">
-     <p>Country</p>
-     <select id ="dropdown" name"country" class="form-control"
-             required > 
-       <option disabled selected value> Country</option>
-       <option value="KSA">KSA</option>
-       <option value="USA">USA</option>
-       <option value="UAE">UAE</option>
-       <option value="other">other</option>
-       </select>
-  </div>
   <div class="form-group">
-    <p>Please select your age </p>
-    <label>
+    <label id="name-label" for"Subject">Subject</label>
       <input
-             name="age"
-             value="18-25"
-             type="radio"
-             class="input-radio"
-             checked
-             > 18-25</label>
-     <label>
-      <input
-             name="age"
-             value="18-25"
-             type="radio"
-             class="input-radio"
-             checked
-             > 18-25</label>
-     <label>
-      <input
-             name="age"
-             value="25-35"
-             type="radio"
-             class="input-radio"
-             
-             > 25-35</label>
-     <label>
-      <input
-             name="age"
-             value="35-60"
-             type="radio"
-             class="input-radio"
-             
-             > 35-60</label>
+             type="Subject"
+             name="name"
+             class="form-control"
+             placeholder="Subject"
+             required>
+    </div>
+  <div class="form-group">
+    <p>Message</p>
+    <textarea
+              id="comments"
+              class="input-textarea"
+              name="comment"
+              placeholder="Write something here..."> 
+      </textarea>
   </div>
-  <div class= "form-group">
-    <p> You want to learn</p>
-    <span class="clue">(check all that apply)</span>
-    </p>
-  <label>
-    <input
-           name="learn"
-           value="HTML"
-           type="checkbox"
-           class="input-checkbox"
-           >HTML</label>
-  <label>
-    <input
-           name="learn"
-           value="CSS"
-           type="checkbox"
-           class="input-checkbox"
-           >CSS</label>
-  <label>
-    <input
-           name="learn"
-           value="JavaScript"
-           type="checkbox"
-           class="input-checkbox"
-           >JavaScript</label>
   
+  <div class ="form-group">
+    <button type="submit" id="submit" class="submit-button">
+      Submit</button>
   </div>
-<div class="form-group">
-  <p>Message</p>
-  <textarea
-            id="comments"
-            class="input-textarea"
-            name="comment"
-            placeholder="Write something here..."> 
-    </textarea>
-</div>
+  </form>
+<footer>
+  <div class ="pages">
+    <h3>Website pages</h3>
+    <ul>
+      <li>ABOUT ME</li>
+      <li>CONTACT ME</li>
 
-<div class ="form-group">
-  <button type="submit" id="submit" class="submit-button">
-    Submit</button>
-</div>
-</form>
+    </ul>
+
+  </div>
+  <div class ="terms">
+    <h3>Our terms</h3>
+    <li>FAQ</li>
+    <li>TERMS & CONDITIONS</li>
+  </div>
+</footer>
 </body>
 </html>

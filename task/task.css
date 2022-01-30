@@ -4,8 +4,66 @@ body {
     color: gray;
     text-align: center;
   font-size: 30px;
+  margin:0px;
+  }
+  nav{
+      display: flex;
+      justify-content:space-between;
+      align-items:center;
+      background-color: #0c1753;
+      
+  }
+  .nav-links{
+      display:flex;
+      list-style:none;
+      gap:12px;
+      padding-right: 2px;
+      width:150px;
+      justify-content:space-evenly;
+
+  }
+  .nav-links li a{
+      text-decoration: none;
+      color:antiquewhite;
+      font-size: 15px;
+  }
+  nav img{
+      width:150px;
+  }
+  #aboutme{
+      display:flex;
+      align-items:center;
+      margin:150px 30px 150px 30px;
+  }
+  #aboutme img{
+      max-width:50%;
   }
   
+  
+  footer{
+      display:flex;
+      justify-content: space-evenly;
+      background-color:#0c1753;
+      color:antiquewhite;
+      padding: 20px;
+      flex-wrap:wrap;
+
+  }
+footer ul{
+    list-style: none;
+}
+@media only screen and (max-width:600px){
+    #aboutme{
+        flex-direction: column-reverse;
+    }
+    footer{
+        flex-direction: column;
+    }
+    .nav-links li a {
+        text-decoration: none;
+        color: antiquewhite;
+        font-size: 12px;}
+}
     h1{
       color: gray;
     font-size: 30px;
